@@ -66,9 +66,9 @@ export default function Weather() {
           <div className="description"></div>
         </h5>
         <ul>
-          <li>humidity: {setMessage.humidity}</li>
+          <li>humidity: {setMessage.humidity}%</li>
           <li>
-            Windspeed: <span>70</span>km/h
+            Windspeed: <span>{setMessage.wind}</span>km/h
           </li>
         </ul>
       </div>
