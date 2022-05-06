@@ -23,22 +23,23 @@ export default function Weather() {
         </form>
 
         <h1>Paris</h1>
-        <ul>
-          <li>last updated: Tuesday</li>
-          <li>Cloudy</li>
-        </ul>
-        <br />
-        <br />
-        <br />
-        <h2>
-          <div className="temperature"> </div>
-          <div className="weather-icon"> </div>
+
+        <div className="units">
+          <h3>15°C</h3>
+        </div>
+        <div className="weather-icon">
           <img
             src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
             alt="Clear"
-          />{" "}
-          <div className="units">15°C</div>
-        </h2>
+          />
+        </div>
+        <ul>
+          <li>Cloudy</li>
+          <li>Friday</li>
+        </ul>
+        <br />
+        <br />
+
         <h5>
           <div className="description"></div>
         </h5>
@@ -50,6 +51,80 @@ export default function Weather() {
             Windspeed: <span>70</span>km/h
           </li>
         </ul>
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="forecast-day">Sat</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">20</div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="forecast-day">Sun</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">19</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">Mon</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">20</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">Tue</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">20</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">Wed</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">20</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">Thru</div>
+            <div class="forecast-icon">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+                alt="Clear"
+              />
+            </div>
+            <div class="forecast-temp">20</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h6>
+          <a href="https://github.com/Mjb222/Weather-App-M">
+            {" "}
+            Open-source code
+          </a>{" "}
+          by Marium Bajwa
+        </h6>
       </div>
     </div>
   );
